@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+.testimonials{
+    height: 772px;
+    width: 100%;
+    background: #8EC2F2;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 400px){
+    .testimonials{
+        height: 1265px;
+        width: 100vw;
+    }
+}

@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+.testimony{
+    height: 288px;
+    width: 450px;
+    padding: 30px 40px 30px 40px;
+    background: #ffffff;
+    position: relative;
+}
+
+.clientImage{
+    position: absolute;
+    left: -5rem;
+    top: 2rem;
+}
+
+.testimony:nth-child(1){
+    margin-left: 97px;
+}
+
+.testimony:nth-child(2){
+    margin-left: 136px;
+}
+
+.clientName{
+    font-size: 24px;
+    color: #000;
+    font-weight: bold;
+    padding: 0;
+    margin-top: 0;
+}
+
+.client{
+    margin-top: 5px;
+    font-size: 14px;
+    color: #000;
+    font-weight: light;
+}
+
+.stars{
+    display: flex;
+}
+
+.star{
+    margin: 0 3px;
+}
+
+.clientSay{
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 400px){
+    .testimony{
+        height: 408px;
+        width: 100%;
+        padding: 30px 40px 30px 40px;
+    }
+
+    .testimony:nth-child(1){
+        margin: 30px 0;
+    }
+
+    .testimony:nth-child(2){
+        margin: 30px 0;
+    }
+
+    .clientImage{
+        display: none;
+    }
+
+    .clientSay{
+        padding-right: 40px;
+    }
+}

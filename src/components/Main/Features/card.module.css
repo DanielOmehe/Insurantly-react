@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+.card{
+    height: 243.29421997070312px;
+    width: 328px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.heading{
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.subHeading{
+    font-size: 14px;
+    color: #fff;
+    line-height: 20px;
+    text-align: center;
+    padding: 0 4rem;
+    margin-top: 10px;
+}

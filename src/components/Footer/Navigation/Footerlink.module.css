@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+.linksContainer{
+    width: 55%;
+    height: 100%;
+    display: flex;
+}
+
+.links{
+    height: 100%;
+    padding: 10px;
+    margin-right: 40px;
+}
+
+.header{
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.listItems{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 400px){
+    .linksContainer{
+        flex-direction: column;
+    }
+}

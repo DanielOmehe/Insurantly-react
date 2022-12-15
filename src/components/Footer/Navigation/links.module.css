@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+.listItem{
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.listItem a{
+    color: #fff;
+    font-weight: 500;
+}

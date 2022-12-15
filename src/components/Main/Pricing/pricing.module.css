@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+.pricing{
+    height: 1155px;
+    width: 100%;
+    background: #252b42;
+}
+
+.container{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.title{
+    height: 107px;
+    width: 633px;
+    text-align: center;
+    margin: 112px auto;
+}
+
+.heading{
+    color: #fff;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.subHeading{
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    padding: 0 13.5rem;
+}
+
+.pricingCardBox{
+    height: 744px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pricingCardBox::before{
+    content: 'New';
+    height: 90px;
+    width: 90px;
+    left: 67rem;
+    top: 0px;
+    border-radius: 52px;
+    position: absolute;
+    color: #fff;
+    background: #e77c40;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.pricingCard{
+    height: 689px;
+    width: 327px;
+    left: 5px;
+    top: 26px;
+    border-radius: 10px;
+    padding: 50px 40px 50px 40px;
+    background: #fff;
+    margin: 0 30px;
+}
+
+.header{
+    height: 32px;
+    width: 64px;
+    font-size: 24px;
+    margin: 0 auto 35px;
+    font-weight: bold;
+}
+
+.subHeader{
+    text-align: center;
+    height: 48px;
+    width: 160px;
+    font-size: 16px;
+    margin: 0 auto 35px;
+    padding: 0;
+    font-weight: 700;
+}
+
+.priceBox{
+    height: 81px;
+    width: 86px;
+    text-align: center;
+    padding: 0;
+    margin: 0 auto 35px;
+}
+
+.price{
+    color: #23A6F0;
+    margin: 0;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.rate{
+    color: #23A6F0;
+    margin: 0;
+    font-size: 14px;
+}
+
+.button{
+    height: 52px;
+    width: 246px;
+    left: 40.5px;
+    top: 316px;
+    border-radius: 5px;
+    padding: 15px 40px 15px 40px;
+    background: #23A6F0;
+    color: #fff;
+    font-weight: bold;
+    border: 1px solid #23A6F0;
+    margin-bottom: 35px;
+}
+
+.features{
+    height: 236px;
+    width: 247px;
+}
+
+.feature{
+    display: flex;
+    align-items: center;
+}
+
+.feature img{
+    margin-bottom: 15px;
+}
+
+.text{
+    font-size: 14px;
+    font-weight: 600;
+    padding-right: 5px;
+    margin-left: 10px;
+    margin-top: 0;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 400px){
+    .pricing{
+        height: 2570px;
+        width: 100vw;
+    }
+
+    .container{
+        height: 2431px;
+        width: 330px;
+        padding: 45px 0px 45px 0px;
+    }
+
+    .title{
+        height: 147px;
+        width: 310px;
+        margin: 75px auto 60px;
+    }
+
+    .subHeading{
+        padding: 0 5rem;
+    }
+
+    .pricingCardBox{
+        height: 2134px;
+        width: 329px;
+        flex-direction: column;
+    }
+
+    .pricingCard{
+        height: 665px;
+        width: 327px;
+        border-radius: 10px;
+        padding: 50px 40px 50px 40px;
+        margin-bottom: 56px;
+    }
+}

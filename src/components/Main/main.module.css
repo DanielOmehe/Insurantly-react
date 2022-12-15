@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+.content{
+    width: 100%;
+    min-height: 435px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 400px){
+    .content{
+        width: 100%;
+    }
+}

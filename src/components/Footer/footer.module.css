@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+.footer{
+    height: 488px;
+    width: 100%;
+    left: 0px;
+    top: 4582px;
+    border-radius: 0px;
+}
+
+.consult{
+    height: 142px;
+    width: 100%;
+}
+
+.container{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.heading{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.subHeading{
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.button{
+    height: 52px;
+    width: 160px;
+    left: 38px;
+    top: 0px;
+    border-radius: 5px;
+    padding: 15px 40px 15px 40px;
+    color: #fff;
+    background: #23a6f0;
+    font-weight: bold;
+    border: 1px solid #23a6f0;
+}
+
+.info{
+    height: 152px;
+    width: 321px;
+}
+
+.social{
+    height: 74px;
+    width: 100%;
+}
+
+.intro{
+    height: 24px;
+    display: flex;
+    align-items: center;
+    width: 600px;
+    font-size: 14px;
+}
+
+.icons{
+    height: 24px;
+    width: 236px;
+    display: flex;
+    align-items: center;
+    padding: 0 40px;
+    justify-content: space-evenly;
+}
+
+.icon{
+    margin: 0 22px;
+}
+
+.header{
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 400px){
+    .footer{
+        height: 1567px;
+        width: 100vw;
+        border: 1px solid white;
+    }
+    
+    .consult{
+        height: 302px;
+        width: 100%;
+        border: 1px solid black;
+    }
+
+    .container{
+        height: 296px;
+        width: 352px;
+        left: 31px;
+        top: 0px;
+        border-radius: 0px;
+        padding: 40px 0px 40px 0px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .title{
+        height: 216px;
+        width: 239px;
+        left: 56.5px;
+        top: 40px;
+        border-radius: 0px;
+        border: 1px solid black;
+    }
+
+    .subHeading{
+        padding-right: 8rem;
+        line-height: 20px;
+        font-weight: 600;
+    }
+
+    .social{
+        min-height: 202px;
+        width: 100%;
+        left: 0px;
+        top: 1365px;
+        border-radius: 0px;
+        background: #252b42;
+    }
+}

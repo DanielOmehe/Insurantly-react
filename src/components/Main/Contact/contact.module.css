@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+.contact{
+    height: 670px;
+    width: 100%;
+    background: url('../../../images/newfam.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.container{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.row{
+    height: 571px;
+    width: 602px;
+    padding: 40px 0px 40px 0px;
+    margin: 50px 0;
+}
+
+.contactUs{
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: -20px;
+}
+
+.appoint{
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.contactForm{
+    height: 280px;
+    width: 601px;
+}
+
+.input{
+    height: 50px;
+    width: 601px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.inputField{
+    height: 50px;
+    width: 293px;
+    left: 0px;
+    top: 0px;
+    border-radius: 5px;
+    outline: 0;
+    border: none;
+    padding: 2px 20px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, .43);
+}
+
+.select{
+    height: 50px;
+    width: 602px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.selectField{
+    height: 50px;
+    width: 293px;
+    left: 0px;
+    top: 0px;
+    border-radius: 5px;
+    border: none;
+    padding: 2px 20px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, .43);
+}
+
+.message{
+    height: 140px;
+    width: 601px;
+    left: 0px;
+    top: 140px;
+    border-radius: 5px;
+    margin-bottom: 40px;
+    padding: 20px;
+}
+
+.button{
+    height: 52px;
+    width: 218px;
+    left: 0px;
+    top: 479px;
+    border-radius: 5px;
+    padding: 15px 40px 15px 40px;
+    background: #23a6f0;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    border: 1px solid #23a6f0;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 400px){
+    .contact{
+        height: 918px;
+        width: 100vw;
+    }
+
+    .container{
+        height: 860px;
+        width: 330px;
+        padding: 45px 0px 45px 0px;
+    }
+
+    .row{
+        height: 770px;
+        width: 292px;
+        padding: 40px 0px 40px 0px;
+        margin: auto;
+    }
+
+    .appoint{
+        font-size: 40px;
+        margin-bottom: 40px;
+    }
+
+    .contactForm{
+        height: 420px;
+        width: 292px;
+    }
+
+    .input{
+        height: 120px;
+        width: 286px;
+        margin: 0;
+        padding: 0;
+        flex-direction: column;
+    }
+
+    .inputField{
+        height: 50px;
+        width: 286px;
+        margin-bottom: 20px;
+        border-radius: 3px;
+    }
+
+    .select{
+        height: 120px;
+        width: 286px;
+        margin: 0;
+        padding: 0;
+        flex-direction: column;
+    }
+
+    .selectField{
+        height: 50px;
+        width: 286px;
+        margin-bottom: 20px;
+        border-radius: 3px;
+    }
+
+    .message{
+        height: 140px;
+        width: 286px;
+        left: 0px;
+        top: 280px;
+        border-radius: 5px;
+    }
+
+    .button{
+        height: 52px;
+        width: 286px;
+        left: 0px;
+        top: 678px;
+        border-radius: 5px;
+        padding: 15px 40px 15px 40px;
+    }
+}

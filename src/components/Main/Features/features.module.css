@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+.features{
+    width: 100%;
+    background: #252B42;
+    height: 435px;
+    margin: 0;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 400px){
+    .features{
+        height: 950px;
+        width: 100vw;
+    }
+}
